@@ -13,7 +13,7 @@ function App(){
     <Route path="/AnshPay" element={<Home />}/>
     <Route path="/about" element={<About />}/>
     <Route path="/contact" element={<Contact />}/>
-    <Route element={<Error />}/>
+    <Route path="*" element={<Error />}/>
     <Route path="/services" element={<Services />}/>
    </Routes>
     </>
