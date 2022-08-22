@@ -21,7 +21,7 @@
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <NavLink className="nav-list-item" to="/">Home</NavLink>
+              <NavLink className="nav-list-item" to="/AnshPay">Home</NavLink>
               <NavLink className="nav-list-item" to="/services">Services</NavLink>
               <NavLink className="nav-list-item" to="/about">About</NavLink>
               <NavLink className="nav-list-item" to="/contact">Contact</NavLink>
