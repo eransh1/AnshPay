@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/AnshPay/static/css/main.2784ee74.css",
-    "main.js": "/AnshPay/static/js/main.e45d0b86.js",
+    "main.js": "/AnshPay/static/js/main.d7c09479.js",
+    "static/media/hero1.jpg": "/AnshPay/static/media/hero1.0d0bfbe16ca6574c17c0.jpg",
     "index.html": "/AnshPay/index.html",
     "main.2784ee74.css.map": "/AnshPay/static/css/main.2784ee74.css.map",
-    "main.e45d0b86.js.map": "/AnshPay/static/js/main.e45d0b86.js.map"
+    "main.d7c09479.js.map": "/AnshPay/static/js/main.d7c09479.js.map"
   },
   "entrypoints": [
     "static/css/main.2784ee74.css",
-    "static/js/main.e45d0b86.js"
+    "static/js/main.d7c09479.js"
   ]
 }
