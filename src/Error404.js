@@ -12,7 +12,7 @@ const Error404 = () => {
 </div>
 <h2 className='error-h2'>WE ARE SORRY, PAGE NOT FOUND!</h2>
 <p className="error-p">THE PAGE YOU ARE LOOKING FOR MIGHT HAVE BEEN REMOVED OR HAD ITS NAME CHANGED OR IS TEMPORARILY UNAVAILABLE.</p>
-<NavLink aria-current="page"  class="active" to="/">back to homepage</NavLink>
+<NavLink aria-current="page"  class="active" to="/AnshPay">back to homepage</NavLink>
         </div>
       </section>
     </>
