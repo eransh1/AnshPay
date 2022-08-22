@@ -18,8 +18,8 @@ Easy For You.</h1>
 </div>
 </div> 
 <div className='col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center  header-images'>
-<img className='img1' src="/images/hero1.jpg" alt="header-img" />
-<img className='img2' src="/images/hero4.jpg" alt="header-img" />
+<img className='img1' src="./images/hero1.jpg" alt="header-img" />
+<img className='img2' src="./images/hero4.jpg" alt="header-img" />
 </div>
 </div>
 </section>
