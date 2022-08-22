@@ -1,0 +1,102 @@
+#error{
+    position: relative;
+    height: 100vh;
+}
+.error{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:100rem;
+    text-align:center;
+}
+.error-h1{
+    font-family: "Maven Pro", sans-serif;
+    color: #ececec;
+    font-weight: 900;
+    font-size: 276px;
+    margin: 0px;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error-h2{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 46px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.error-p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.error a{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #189cf0;
+    display: inline-block;
+    padding: 16px 38px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.2s all;
+}
+
+.error a:hover{
+    background-color: #fff;
+    border-color: #189CE0;
+    color: #189cf0;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%);
+}
+
+@media(max-width:990px){
+    .error{
+        position: relative;
+        width:80rem;
+    }
+    .error-h1{
+        font-size: 275px;
+    }
+    #error{
+        margin: 10rem 0;
+    }
+}
+
+@media(max-width:830px){
+    .error{
+        position: relative;
+        width:60rem;
+    }
+    .error-h1{
+        font-size: 250px;
+    }
+}
+
+@media(max-width:640px){
+    .error{
+        position: relative;
+        width:50rem;
+    }
+    .error-h1{
+        font-size: 220px;
+        
+    }
+    .error-p{
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .error-h2{
+        width:98%;
+        margin-left:1rem;
+    }
+}

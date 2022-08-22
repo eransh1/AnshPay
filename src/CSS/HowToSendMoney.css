@@ -1,0 +1,64 @@
+.container-sendMoney{
+    
+    margin-top:5rem;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0 3rem;
+    font-weight:bold;
+    font-size:3rem;
+}
+.logo{
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    margin: 2rem auto 1rem;
+}
+.main-col:hover>.logo{
+    background-color: var(--bgcolor);
+}
+
+
+.main-col{
+    background-color: var(--bgcolor);
+    padding:5rem;
+    width:30%!important;
+    margin: 2rem;
+    box-shadow: 0 0.1rem 0.4rem rgb(0 0 0 / 16%);
+}
+
+.main-col:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
+.main-col h3{
+    text-align:center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.main-col p{
+    margin:1rem auto 3rem;
+    font-size:1.7rem;
+    font-weight: 200;
+}
+
+
+@media(max-width:1400px){
+    .main-col{
+        width:29%!important;
+    }   
+}
+@media(max-width:990px){
+    .main-col{
+        width:70%!important;
+        margin: 2rem auto;
+    }
+}

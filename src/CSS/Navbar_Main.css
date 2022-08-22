@@ -1,0 +1,64 @@
+.navbar-bg{
+    background-color: #f1f5fd;
+    padding: 2rem ;
+    position:relative;
+    z-index: 99;
+    
+}
+/* .navbar{
+    width: 3000px;
+} */
+.navbar-brand{
+   
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: .1rem;
+}
+
+.nav-list-item{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight:300;
+    color:#6f5de7!important
+}
+.nav-list-item:hover{
+color:#6f5de7!important;
+text-shadow: 0 .2rem .3rem rgb(183, 171, 255 ,0.5) ;
+}
+
+
+.nav-btn-Login{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    height: 3.5rem;
+    width: 10rem;
+    color: white;
+    background-color:#6f5de7!important;
+    border-radius: 20rem;
+}
+.nav-btn-Login:hover{
+    color:#6f5de7;
+    border: .1rem solid #6f5de7;
+    background-color: transparent!important;
+    box-shadow: 2px 2px 2px 1px rgb(183, 171, 255 ,0.5);
+}
+
+.nav-btn-Signup{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    height: 3.5rem;
+    width: 10rem;
+    color:#6f5de7;
+    border: .1rem solid #6f5de7;
+    background-color: transparent!important;
+    box-shadow: 2px 2px 2px 1px rgb(183, 171, 255 ,0.5);
+    border-radius: 20rem;
+}
+.nav-btn-Signup:hover{
+    color: white;
+    background-color:#6f5de7!important;
+    border-radius: 20rem;
+}

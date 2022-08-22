@@ -1,0 +1,81 @@
+.main-container-sales{
+    margin: 7rem 13rem 13rem;
+}
+
+.left-side-container{
+    
+    height:500px;
+}
+
+.left-side-container h2{
+    font-size:2.5rem;
+    font-weight:bold;
+    margin-bottom: 3rem;
+}
+
+.left-side-container p{
+    font-size:1.7rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+
+}
+
+
+.sales-img{
+    
+    height:60%;
+    width: 80%;
+}
+
+
+.contact-input-feild{
+    margin-bottom: 4rem;
+}
+
+.form-control{
+border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    height: 5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    font-weight: 300;
+}
+
+.form-checkbox-style{
+    margin: 4rem 0;
+}
+.form-check-input{
+    width: 2rem;
+    height: 2rem;
+}
+.label{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: 300;
+    width: 75%;
+    padding: 0 2rem;
+}
+
+.btn-style{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.btn-style:hover{
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgb(183 171 255 / 50%);
+}
+
+@media(max-width:990px){
+    .main-container-sales{
+        margin: 7rem 0 13rem;
+    }
+}
