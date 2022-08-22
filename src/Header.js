@@ -1,6 +1,7 @@
 import React from 'react'
 import "./CSS/Header.css"
 import img1 from "./images/hero1.jpg"
+import img2 from "./images/hero4.jpg"
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ Easy For You.</h1>
 </div> 
 <div className='col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center  header-images'>
 <img className='img1' src={img1} alt="header-img" />
-<img className='img2' src="./images/hero4.jpg" alt="header-img" />
+<img className='img2' src={img2} alt="header-img" />
 </div>
 </div>
 </section>

@@ -2,6 +2,9 @@ import React from 'react'
 import "./CSS/UseApp.css"
 import appData from "./api/howToUseApp"
 import supportData from "./api/support"
+import img4 from "./images/hero3.jpg"
+import img5 from "./images/callcenter.jpg"
+
 
 const UseApp = () => {
   return (
@@ -10,7 +13,7 @@ const UseApp = () => {
             <div className='container main-container'>
 <div className='row main-row'>
 <div className='col-12 col-lg-5 d-flex justify-content-center align-items-center'>
-<img className='img' src="./images/hero3.jpg" alt="" />
+<img className='img' src={img4} alt="" />
 </div>
 <div className='col-12 col-lg-7 column  '>
 <h3 className="col-h3">AVAILABLE ON GOOGLE AND IOS APP STORE ONLY</h3>
@@ -67,7 +70,7 @@ available 24/7</h1>
 
 </div>
 <div className='col-12 col-lg-4 d-flex justify-content-center align-items-center'>
-<img className='img img-section' src="./images/callcenter.jpg" alt="" />
+<img className='img img-section' src={img5} alt="" />
 </div>
 </div>
 

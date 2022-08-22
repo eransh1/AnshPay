@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import "./CSS/SalesTeam.css"
+import img3 from "./images/hero1.jpg"
 
 const SalesTeam = () => {
 
@@ -71,7 +72,7 @@ const submitData = async (event) => {
 <h2>Connect With Our<br />Sales Team.</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eaque alias similique.</p>
 
-<img className="sales-img" src="./images/hero1.jpg" alt="hero1-img" />
+<img className="sales-img" src={img3} alt="hero1-img" />
 </div>
 <div className='col-12 col-lg-7 right-side-container '>
 <form action="" method="POST">
