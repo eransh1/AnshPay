@@ -5,10 +5,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Error from "./pages/Error";
+import Loader from "./Loader";
 function App(){
 
   return (
     <>
+    <Loader />
     <Routes >
     <Route path="/AnshPay" element={<Home />}/>
     <Route path="/about" element={<About />}/>
