@@ -26,8 +26,12 @@
               <NavLink className="nav-list-item" to="/about">About</NavLink>
               <NavLink className="nav-list-item" to="/contact">Contact</NavLink>
             </Nav>
+            <NavLink to="/signup">
               <Button className="nav-btn-Login" >Sign Up</Button>
+              </NavLink>
+              <NavLink to="/login">
               <Button className="nav-btn-Signup" >Log In</Button>
+              </NavLink>
           </Navbar.Collapse>  
         </Container>
       </Navbar>
