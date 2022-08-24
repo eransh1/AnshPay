@@ -1,0 +1,25 @@
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: var(--bgcolor);
+    z-index: 100;
+
+}
+
+.loader-container {
+margin-top: 10rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: var(--bgcolor)
+        url("../images/loader2.gif") center
+        no-repeat;
+    z-index: 101;
+}
