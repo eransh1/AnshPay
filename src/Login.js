@@ -12,7 +12,7 @@ const Login = () => {
 <div className='row row-login'>
 <div className='col-6 left-column '>
 
-<form className='form-login' action="" method='POST'>
+<form className='form-login' action="" >
     <input type="text" name='userName' className='input-login input-top-login' placeholder='Username'  /><br />
     <input type="text" name='password' className='input-login' placeholder='Password' /><br />
     <div className='btn-a'>

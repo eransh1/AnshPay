@@ -12,7 +12,7 @@ const RegistrationForm = () => {
 <div className='row'>
 <div className='col-6 left-column '>
 
-<form action="" method='POST'>
+<form action="" >
     <input type="text" name='userName' className='input input-top' placeholder='Username'  /><br />
     <input type="text" name='email' className='input' placeholder='Email' /><br />
     <input type="text" name='password' className='input' placeholder='Password' /><br />
