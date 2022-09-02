@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AnshPay/static/css/main.0349ece8.css",
-    "main.js": "/AnshPay/static/js/main.263cedad.js",
+    "main.js": "/AnshPay/static/js/main.8eb68cfa.js",
     "static/media/hero1.jpg": "/AnshPay/static/media/hero1.0d0bfbe16ca6574c17c0.jpg",
     "static/media/hero3.jpg": "/AnshPay/static/media/hero3.692be83dc58c48d7defb.jpg",
     "static/media/callcenter.jpg": "/AnshPay/static/media/callcenter.d6b34d3b48894a9d88fa.jpg",
@@ -10,10 +10,10 @@
     "static/media/img1.png": "/AnshPay/static/media/img1.c8ef898b63453f597090.png",
     "index.html": "/AnshPay/index.html",
     "main.0349ece8.css.map": "/AnshPay/static/css/main.0349ece8.css.map",
-    "main.263cedad.js.map": "/AnshPay/static/js/main.263cedad.js.map"
+    "main.8eb68cfa.js.map": "/AnshPay/static/js/main.8eb68cfa.js.map"
   },
   "entrypoints": [
     "static/css/main.0349ece8.css",
-    "static/js/main.263cedad.js"
+    "static/js/main.8eb68cfa.js"
   ]
 }
